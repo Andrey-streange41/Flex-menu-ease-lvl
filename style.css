@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+}
+
+:root
+{
+    --header-text-color:whitesmoke;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.h3-container>h3
+{
+    font-size: 4.5vh;
+    color: var(--header-text-color);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.container-lvl2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 500px;
+   
+}
+
+.header-item
+{
+    padding: 0px 5px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: var(--header-text-color);
+}
+
+.button-wrapper,.header-item,.h3-container
+{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.page-header
+{
+    background-color: rgb(51, 48, 48);
+   
+}
+
+.header-button
+{
+    border: solid var(--header-text-color) 2px;
+    background-color: rgb(51, 48, 48);
+    color: var(--header-text-color);
+    padding:15px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.h3-container
+{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.page-image
+{
+    background-image: url(adaptivePage.png);
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+   
+}
